@@ -1,4 +1,4 @@
-﻿/*!
+/*!
  * DevCon v0.0.1 
  * Copyright 2015 Mauritius Software Craftsmanship Community
  */
@@ -26,6 +26,12 @@ $(document).on('click', '.navbar-collapse.in', function (e) {
     if ($(e.target).is('a')) {
         $(this).collapse('hide');
     }
+});
+
+$('a.scroll-link').on('click', function(e){
+    $('html, body').animate({
+        scrollTop: $('.container').offset().top
+    }, 2000);
 });
 
 //$(document).ready(function () {
