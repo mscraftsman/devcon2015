@@ -28,10 +28,12 @@ $(document).on('click', '.navbar-collapse.in', function (e) {
     }
 });
 
-$('a.scroll-link').on('click', function(e){
-    $('html, body').animate({
-        scrollTop: $('.container').offset().top
-    }, 2000);
+jQuery(function() {
+    $('body').on('click', '.scroll-link', function(e){
+        $('html, body').animate({
+            scrollTop: $('.container').offset().top
+        }, 500);
+    });
 });
 
 //$(document).ready(function () {
