@@ -1,4 +1,4 @@
-[Developer Conference 2015](http://www.devconmru.org/)
+[Developer Conference 2015](http://2015.devconmru.org/)
 =========================
 
 The website for the Developers Conference 2015 in Mauritius is based on a 
