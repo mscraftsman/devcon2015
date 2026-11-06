@@ -1097,7 +1097,7 @@ span.language {
     height: 192px;
     width: 250px;
     background-repeat: no-repeat;
-    background-position: left -5;
+    background-position: left -5px;
     margin-top: -50px;
 }
 
@@ -1212,8 +1212,10 @@ input::-moz-focus-inner {
     /* Style adjustments for viewports that meet the condition */
 }
 
-@media screen and (min-device-width: 401px) and (min-width: 401px) .portlouis {
-    background: url(/img/portlouis.jpg) no-repeat; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover;
+@media screen and (min-device-width: 401px) and (min-width: 401px) {
+    .portlouis {
+        background: url(/img/portlouis.jpg) no-repeat; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover;
+    }
 }
 
 @media (min-width: 768px) {
@@ -1222,8 +1224,10 @@ input::-moz-focus-inner {
     }
 }
 
-@media (max-width: 1040px) .container-speaker .speaker {
-    -webkit-flex: 1 0 50%; flex: 1 0 50%;
+@media (max-width: 1040px) {
+    .container-speaker .speaker {
+        -webkit-flex: 1 0 50%; flex: 1 0 50%;
+    }
 }
 
 @media (max-width: 979px) {
